@@ -256,7 +256,7 @@ namespace ToplantıRandevuSistemi
                 {
                     client.Port = 587;
                     client.UseDefaultCredentials = false;
-                    client.Credentials = new NetworkCredential("meetingbilgilendirme@outlook.com", "tshwsinqusloisrw");
+                    client.Credentials = new NetworkCredential("meetingbilgilendirme@outlook.com", "your-app-password");
                     client.EnableSsl = true;
 
                     foreach (var (email, name) in emailAddresses)
